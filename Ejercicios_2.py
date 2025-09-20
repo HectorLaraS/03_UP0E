@@ -12,3 +12,6 @@ es_vip = False
 
 #None ausencia de valor
 costo_final = None
+
+for x in range(100):
+    print(x)

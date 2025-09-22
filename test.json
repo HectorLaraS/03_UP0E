@@ -1,0 +1,17 @@
+{
+    "tienda": "Mi Tienda Online",
+    "productos": [
+        {
+            "id": 1,
+            "nombre": "Camiseta",
+            "precio": 199.99,
+            "stock": 50
+        },
+        {
+            "id": 2,
+            "nombre": "Pantalón",
+            "precio": 499.0,
+            "stock": 30
+        }
+    ]
+}

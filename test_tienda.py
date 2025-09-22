@@ -8,4 +8,7 @@ for producto in res:
         name = producto["Name"]
         price = producto["Precio"]
         print(name, price)
-
+producto = Producto()
+producto.id_producto = 7001
+res_2 = product_validation_exist(producto)
+print(res_2)

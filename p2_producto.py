@@ -25,6 +25,13 @@ class Producto:
     def id_producto(self,id_producto):
         self._id_producto = id_producto
 
+    def product_information_dict(self):
+        return {
+            "ID": self._id_producto,
+            "Name": self._nombre,
+            "Price": self._precio
+        }
+
 if __name__ == "__main__":
     producto = Producto()
     producto.nombre = "Coca Cola"

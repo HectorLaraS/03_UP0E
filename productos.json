@@ -12,6 +12,12 @@
   "Name": "Coca Cola Light",
   "Precio":21.0,
   "Cantidad": 300
+  },
+      {
+  "ID": 7003,
+  "Name": "Sabritas Rojas",
+  "Precio":25.0,
+  "Cantidad": 100
   }
   ]
 }

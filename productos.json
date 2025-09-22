@@ -1,0 +1,17 @@
+{
+  "Catalogo": "Productos Inventariados",
+  "Productos": [
+      {
+  "ID": 7001,
+  "Name": "Coca Cola Regular",
+  "Precio":21.0,
+  "Cantidad": 500
+  },
+      {
+  "ID": 7002,
+  "Name": "Coca Cola Light",
+  "Precio":21.0,
+  "Cantidad": 300
+  }
+  ]
+}

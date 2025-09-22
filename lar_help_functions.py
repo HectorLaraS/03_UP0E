@@ -1,5 +1,12 @@
 from p1_cliente import Cliente
 from p1_room_reservation import RoomReservation
+import json
+def retrieve_json_information(file_path: str) -> list:
+    res:list = []
+    with open(file_path) as json_file:
+        catalog: dict = json.load(json_file)
+        res = catalog.get("Productos")
+    return res
 
 def print_ticket(cliente: Cliente, room: RoomReservation):
     total = room.days * room.price

@@ -1,6 +1,4 @@
 #TBD - crear un sistema de reserva de hotel donde se incluya el nombre, dias, tarifa y si la habitacion tiene vista al mar
-from p1_cliente import *
-from p1_room_reservation import *
 from lar_help_functions import *
 
 print("Ingrese los datos a como son Solicitados: ")

@@ -7,17 +7,17 @@ class Cliente(person):
         self._phone = phone
 
     @property
-    def mail(self):
+    def Mail(self):
         return self._mail
-    @mail.setter
-    def mail(self, mail):
+    @Mail.setter
+    def Mail(self, mail):
         self._mail = mail
 
     @property
-    def phone(self):
+    def Phone(self):
         return self._phone
-    @phone.setter
-    def phone(self, phone):
+    @Phone.setter
+    def Phone(self, phone):
         self._phone = phone
 
     def client_information(self):

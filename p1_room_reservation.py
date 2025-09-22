@@ -1,4 +1,3 @@
-from p1_cliente import *
 class RoomReservation:
     def __init__(self, days: int = 1, has_beach_view: bool = False, price: float = 500.00 ):
         self._days: int = days
